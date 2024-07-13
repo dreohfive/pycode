@@ -5,3 +5,4 @@ for i in range(2,int(n**0.5)+1):
         s=False
         break
 print(s)
+#harry
