@@ -1,4 +1,4 @@
-#binary search recursive approach
+#binary search iterative approach
 def binary_search(lst,n):
     low=0
     high=len(lst)-1
@@ -14,7 +14,7 @@ def binary_search(lst,n):
 lst=[1,2,3,4,5,6,7]
 print(binary_search(lst,5))
 
-#binary search itertive approach
+#binary search recursive approach
 def binary_search(lst,low,high,n):
     while low<=high:
         mid=(low+high)//2
